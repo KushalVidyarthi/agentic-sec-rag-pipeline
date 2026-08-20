@@ -1,0 +1,24 @@
+# Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Secrets & Configs
+.env
+*.pem
+secrets.json
+
+# Local Vector Database
+chroma_db/
+*.sqlite3
+
+# Python Caches & Logs
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
