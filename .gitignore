@@ -1,24 +1,33 @@
-# Environments
+﻿# ── Virtual Environments ──────────────────────────────────────────────────────
 .venv/
 env/
 venv/
-ENV/
 
-# Secrets & Configs
+# ── API Keys & Secrets ────────────────────────────────────────────────────────
 .env
-*.pem
-secrets.json
 
-# Local Vector Database
+# ── Vector Databases ──────────────────────────────────────────────────────────
 chroma_db/
-*.sqlite3
 
-# Python Caches & Logs
+# ── Python Cache ──────────────────────────────────────────────────────────────
 __pycache__/
-*.py[cod]
-*$py.class
-*.log
+*.pyc
+*.pyo
+*.pyd
 
-# OS Generated Files
+# ── Build & Distribution ──────────────────────────────────────────────────────
+dist/
+build/
+*.egg-info/
+
+# ── OS & IDE ──────────────────────────────────────────────────────────────────
 .DS_Store
 Thumbs.db
+.idea/
+.vscode/
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── Logs ─────────────────────────────────────────────────────────────────────
+*.log
